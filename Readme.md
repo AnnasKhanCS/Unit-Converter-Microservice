@@ -44,7 +44,7 @@ Returns a JSON object with converted_amount and output_unit as described below:
 
 Example Response in Javascript: 
 ```json
-Example Res for converting 2lb to oz
+//Example response for converting 2lb to oz
 
 {
     "converted_amount": 32,
