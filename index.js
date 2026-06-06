@@ -1,12 +1,13 @@
 const express = require('express');
 const {convert} = require('./convert');
-
+const cors = require('cors');
 
 const app = express();
 const PORT = 3001;
 
 
 app.use(express.json());
+app.use(cors());
 
 //Get Request
 app.get('/api', (req, res) => {
